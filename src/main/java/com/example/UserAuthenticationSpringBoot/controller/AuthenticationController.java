@@ -1,12 +1,10 @@
-package com.example.spring_boot_demo.controller;
+package com.example.UserAuthenticationSpringBoot.controller;
 
 
-import com.example.spring_boot_demo.model.AuthenticationRequest;
-import com.example.spring_boot_demo.model.AuthenticationResponse;
-import com.example.spring_boot_demo.model.User;
-import com.example.spring_boot_demo.service.CustomUserDetailsService;
-import com.example.spring_boot_demo.util.JwtUtil;
-import org.hibernate.annotations.Array;
+import com.example.UserAuthenticationSpringBoot.model.AuthenticationRequest;
+import com.example.UserAuthenticationSpringBoot.model.AuthenticationResponse;
+import com.example.UserAuthenticationSpringBoot.service.CustomUserDetailsService;
+import com.example.UserAuthenticationSpringBoot.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -27,7 +25,6 @@ public class AuthenticationController {
 
     @Autowired
     private CustomUserDetailsService userDetailsService;
-
 
     @Autowired
     private JwtUtil jwtUtil;

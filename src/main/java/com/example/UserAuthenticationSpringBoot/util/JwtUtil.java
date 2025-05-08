@@ -1,4 +1,4 @@
-package com.example.spring_boot_demo.util;
+package com.example.UserAuthenticationSpringBoot.util;
 
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;

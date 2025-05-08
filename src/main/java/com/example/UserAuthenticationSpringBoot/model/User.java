@@ -1,4 +1,4 @@
-package com.example.spring_boot_demo.model;
+package com.example.UserAuthenticationSpringBoot.model;
 
 
 import jakarta.persistence.Entity;

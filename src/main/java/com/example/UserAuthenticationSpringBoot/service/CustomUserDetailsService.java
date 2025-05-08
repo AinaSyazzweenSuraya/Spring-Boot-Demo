@@ -1,7 +1,7 @@
-package com.example.spring_boot_demo.service;
+package com.example.UserAuthenticationSpringBoot.service;
 
-import com.example.spring_boot_demo.model.User;
-import com.example.spring_boot_demo.repository.UserRepository;
+import com.example.UserAuthenticationSpringBoot.model.User;
+import com.example.UserAuthenticationSpringBoot.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

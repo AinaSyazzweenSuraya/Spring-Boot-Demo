@@ -1,14 +1,13 @@
-package com.example.spring_boot_demo.controller;
+package com.example.UserAuthenticationSpringBoot.controller;
 
-import com.example.spring_boot_demo.exceptionHandler.ResourceNotFoundException;
-import com.example.spring_boot_demo.model.User;
-import com.example.spring_boot_demo.repository.UserRepository;
+import com.example.UserAuthenticationSpringBoot.exceptionHandler.ResourceNotFoundException;
+import com.example.UserAuthenticationSpringBoot.model.User;
+import com.example.UserAuthenticationSpringBoot.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Arrays;
 import java.util.List;
 
 @RestController
@@ -55,6 +54,4 @@ public class UserController {
         userRepository.delete(userData);
         return ResponseEntity.ok().build();
     }
-
-
 }
